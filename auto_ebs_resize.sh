@@ -95,7 +95,7 @@ do
         df -h $FS_DEVICE
 
         # Clean up
-        sudo rm -f /var/run/${PID_FILE}_${VOL_ID}.pid
+        sudo rm -f ${PID_FILE}_${VOL_ID}.pid
     else
         terminate "[WARN] Looks like auto expansion is in progress."
     fi
