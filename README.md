@@ -1,3 +1,5 @@
+DEPRECATED: See https://github.com/awslabs/amazon-ebs-autoscale
+
 # auto_ebs_resize
 
 Automatically resizes a live Linux filesystem (AWS EBS volume) when capacity is over 90%.
